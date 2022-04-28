@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "954364660858",
+    "project_id": "my-qr-app",
+    "storage_bucket": "my-qr-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954364660858:android:3430ae07735178286b3fc3",
+        "android_client_info": {
+          "package_name": "com.example.qr_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954364660858-r8lguort2len3cg8pggo3hmd59rf1ud8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS0nZtr7h9M7r6Xibfq-4XBbuPAHx0AFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954364660858-r8lguort2len3cg8pggo3hmd59rf1ud8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
