@@ -31,7 +31,8 @@ dependencies:
     sdk: flutter
   qr_flutter: ^4.0.0
   cloud_firestore: ^3.1.13
-
+  flutter_spinkit: ^5.1.0
+  animated_text_kit: ^4.2.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -60,11 +61,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
-
+  assets:
+    - assets/images/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
