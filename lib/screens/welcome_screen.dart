@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 //import 'authontication/login_screen.dart';
 //import 'authontication/registration_screen.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:qr_app/screens/upload.dart';
 import 'package:qr_app/widgets/rounded_btn.dart';
-
 import '../widgets/qr.dart';
 //import 'package:clinido/navigation/extract_arguments_screen .dart';
 
@@ -103,7 +103,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                 borderRadius: BorderRadius.circular(30.0),
                 child: MaterialButton(
                   onPressed: () {
-                    Navigator.of(context).pushReplacementNamed(QrWidget.id);
+                    Navigator.of(context).pushNamed(UploadScreen.id);
                     // Navigator.pushNamed(context, LoginScreen.id);
                   },
                   minWidth: 200.0,

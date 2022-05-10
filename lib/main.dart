@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:qr_app/screens/splash_screen.dart';
+import 'package:qr_app/screens/upload.dart';
 import 'package:qr_app/screens/welcome_screen.dart';
 import 'package:qr_app/widgets/qr.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -63,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
         SplashScreen.id: (context) => SplashScreen(),
         WelcomeScreen.id: (context) => WelcomeScreen(),
         QrWidget.id: (context) => QrWidget(),
+        UploadScreen.id: (context) => UploadScreen(),
       },
     );
 
